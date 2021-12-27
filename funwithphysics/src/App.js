@@ -57,7 +57,7 @@ const App = () => {
   const [typ, settyp] = useState(false);
   const [top, settop] = useState(false);
   const [difficult, setdifficult] = useState(false);
-
+  localStorage.setItem('user', null);
   return (
     <React.Fragment>
       <Helmet>
